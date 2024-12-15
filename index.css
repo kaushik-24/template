@@ -33,9 +33,9 @@ button {
     right: 5;
     max-width: 300px;
     max-height: 80vh;
-    background-color:  #adbbda;
+    background-color: #ede8f5;
     padding: 20px;
-    border-left: 1px solid  #b3b3b3;
+    border-left: 6px solid #7091e6;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
