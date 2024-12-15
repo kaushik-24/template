@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: #f8f9fa;
+  padding: 20px;
+  min-height: 3000px; /* Simulates long content */
+}
+
+.sidebar {
+  position: fixed;
+  top: 20px; /* Fixed 20px from the top */
+  right: 0;
+  width: 300px;
+  background-color: #e9ecef;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+}
+
+.relative {
+  position: relative !important; /* Changes sidebar to relative */
+  top: auto;
+}
