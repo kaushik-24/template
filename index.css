@@ -3,7 +3,7 @@
 }
 
 html, body, nav{
-  background-color: #ede8f5 !important;
+  background: linear-gradient(to left, #ede8f5, #adbbda);
 }
 
 h1, h2, h3, h4 {
@@ -16,9 +16,14 @@ p {
 }
 
 button {
-  background-color: #7091e6 !important;
+  background-color: #3d52a0 !important;
+  color: #ede8f5;
 }
 
+nav {
+  background: linear-gradient(to right, #ede8f5, #adbbda);
+  border-bottom: 4px solid #ede8f5;
+}
 
 .centered-content {
     max-width: 800px;
@@ -28,15 +33,19 @@ button {
 .fixed-sidebar {
     position: fixed;
     overflow: auto;
-    margin-top: 60px;
+    margin-top: 120px;
     top: 0;
     right: 5;
     max-width: 300px;
-    max-height: 80vh;
+    max-height: 70vh;
     background-color: #ede8f5;
     padding: 20px;
-    border-left: 6px solid #7091e6;
-    border-radius: 10px;
+    border-left: 4px solid #3d52a0;
+    border-right: 8px solid #3d52a0;
+    border-top:2px solid #3d52a0;
+    border-bottom: 2px solid #3d52a0;
+    box-shadow: #3d52a0;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
 }
