@@ -3,7 +3,7 @@
 }
 
 html, body, nav{
-  background: linear-gradient(to left, #ede8f5, #adbbda);
+  background: linear-gradient(45deg, #ede8f5, #adbbda);
 
 }
 
@@ -27,8 +27,8 @@ button {
 }
 
 nav {
-  background: linear-gradient(to right, #ede8f5, #adbbda);
-  border-bottom: 4px solid #ede8f5;
+  background: linear-gradient(360deg, #ede8f5, #adbbda);
+  border-bottom: 4px solid #adbbda;
 }
 
 .centered-content {
@@ -44,14 +44,14 @@ nav {
     right: 5;
     max-width: 300px;
     max-height: 70vh;
-    background-color: #ede8f5;
+    background-color: #dbdbdb;
     padding: 20px;
     border-left: 4px solid #3d52a0;
-    border-right: 8px solid #3d52a0;
-    border-top:2px solid #3d52a0;
-    border-bottom: 2px solid #3d52a0;
+    border-right: 10px solid #3d52a0;
+    border-top:4px solid #3d52a0;
+    border-bottom: 4px solid #3d52a0;
     box-shadow: #3d52a0;
-    border-radius: 12px;
+    border-radius: 14px;
     display: flex;
     flex-direction: column;
 }
